@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Patrick Hand', cursive;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h1, input {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.container input:nth-child(2) {
+    height: 30px;
+    padding-left: 5px;
+    font-size: 1em;
+}
+
+.container input:nth-child(3) {
+    cursor: pointer;
+    height: 40px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    outline: none;
+    font-size: 1em;
+}
+
+.container input:nth-child(3):hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+#QRcode {
+    display: flex;
+    justify-content: center;
+}
